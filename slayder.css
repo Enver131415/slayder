@@ -1,0 +1,94 @@
+.body {
+    width: 1440px;
+    height: 783px;
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 1171px;
+    height: 552.28px;
+    display: flex;
+    justify-content: space-between;
+}
+.complited_project {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header_cp {
+    font-family: Yeseva One;
+    text-transform: uppercase;
+    color: #E3B873;
+    font-size: 27px;
+    line-height: 37.42px;
+    font-weight: 400;
+}
+.lines {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.paragraf_cp {
+    font-size: 14px;
+    line-height: 26.73px;
+    font-family: Nunito Sans;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 340px;
+    height: 200px;
+}
+.description_h3 {
+    font-weight: 400;
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 24.95px;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+.div_description_h3:nth-last-child(1) {
+    margin-right: 46px;
+}
+.svg {
+    margin-bottom: 2px;
+}
+.slayder_element {
+    margin-right: 13px;
+}
+.image_cp {
+    font-weight: 400;
+    font-family: Yeseva One;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(84, 84, 84);
+    text-underline-offset: 10px;
+}
+.header_image {
+    display: flex;
+    gap: 60px;
+}
+.div_image {
+    width: 679px;
+    height: 482px;
+    margin-top: 22px;
+}
+.image {
+    display: none;
+}
+.discripPar {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
